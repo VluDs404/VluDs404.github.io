@@ -24,11 +24,15 @@ body {
     background-color: #f4f5f0;
     font-family: 'Montserrat', serif;
     position: relative;
+    overscroll-behavior-y: none;
+    -webkit-overflow-scrolling: auto;
 }
 
 .hero {
     position: relative;
-    height: 100vh;
+    height: 100dvh;
+    height: -webkit-fill-available;
+    min-height: 100vh;
     display: flex;
     justify-content: flex-end;
     align-items: flex-start;
