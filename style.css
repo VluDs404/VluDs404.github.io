@@ -36,8 +36,7 @@ body {
     display: flex;
     justify-content: flex-end;
     align-items: flex-start;
-    background: url('images/hero-bg.png') no-repeat center center/cover;
-    background-position-x: 20%;
+    background: url('images/hero-bg.jpg') no-repeat center center/cover;
     color: white;
     padding: 80px 65px;
     margin: 0 65px;
